@@ -9,14 +9,14 @@ install: |-
   ```
 keywords:
   - kyverno
-  - Pod Security Standards (Baseline)
+  - PSS Baseline (Git Policyset)
   - CEL Expressions
 readme: |
   HostPath volumes let Pods use host directories and volumes in containers. Using host resources can be used to access shared data or escalate privileges and should not be allowed. This policy ensures no hostPath volumes are in use.
   
   Refer to the documentation for more details on Kyverno annotations: https://artifacthub.io/docs/topics/annotations/kyverno/
 annotations:
-  kyverno/category: "Pod Security Standards (Baseline)"
+  kyverno/category: "PSS Baseline (Git Policyset)"
   kyverno/kubernetesVersion: "1.26-1.27"
   kyverno/subject: "Pod,Volume"
 digest: 8f309db940eca3692840c78e2662ff0c25fa718cf0f468b58cdfd4c3d1011274

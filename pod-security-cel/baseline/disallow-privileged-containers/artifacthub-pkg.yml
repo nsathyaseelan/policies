@@ -9,14 +9,14 @@ install: |-
   ```
 keywords:
   - kyverno
-  - Pod Security Standards (Baseline)
+  - PSS Baseline (Git Policyset)
   - CEL Expressions
 readme: |
   Privileged mode disables most security mechanisms and must not be allowed. This policy ensures Pods do not call for privileged mode.
   
   Refer to the documentation for more details on Kyverno annotations: https://artifacthub.io/docs/topics/annotations/kyverno/
 annotations:
-  kyverno/category: "Pod Security Standards (Baseline) in CEL"
+  kyverno/category: "PSS Baseline (Git Policyset) in CEL"
   kyverno/kubernetesVersion: "1.26-1.27"
   kyverno/subject: "Pod"
 digest: 92aefb85dcf369f46733d0f04d289deddee34eb5d0b46860b41de9f9eeed2805

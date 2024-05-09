@@ -9,14 +9,14 @@ install: |-
   ```
 keywords:
   - kyverno
-  - Pod Security Standards (Baseline)
+  - PSS Baseline (Git Policyset)
   - CEL Expressions
 readme: |
   The seccomp profile must not be explicitly set to Unconfined. This policy, requiring Kubernetes v1.19 or later, ensures that seccomp is unset or  set to `RuntimeDefault` or `Localhost`.
   
   Refer to the documentation for more details on Kyverno annotations: https://artifacthub.io/docs/topics/annotations/kyverno/
 annotations:
-  kyverno/category: "Pod Security Standards (Baseline) in CEL"
+  kyverno/category: "PSS Baseline (Git Policyset) in CEL"
   kyverno/kubernetesVersion: "1.26-1.27"
   kyverno/subject: "Pod"
 digest: d21b5941cd9dabf326d60c8b6f8ca2fbfbd0ab3358d47e87f6a0d16419cf4213

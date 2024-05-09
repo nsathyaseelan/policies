@@ -9,14 +9,14 @@ install: |-
   ```
 keywords:
   - kyverno
-  - Pod Security Standards (Baseline)
+  - PSS Baseline (Git Policyset)
   - CEL Expressions
 readme: |
   Windows pods offer the ability to run HostProcess containers which enables privileged access to the Windows node. Privileged access to the host is disallowed in the baseline policy. HostProcess pods are an alpha feature as of Kubernetes v1.22. This policy ensures the `hostProcess` field, if present, is set to `false`.
   
   Refer to the documentation for more details on Kyverno annotations: https://artifacthub.io/docs/topics/annotations/kyverno/
 annotations:
-  kyverno/category: "Pod Security Standards (Baseline) in CEL"
+  kyverno/category: "PSS Baseline (Git Policyset) in CEL"
   kyverno/kubernetesVersion: "1.26-1.27"
   kyverno/subject: "Pod"
 digest: 33a4b3765e2a54711df4379c41babb8b92f748d784bc79df049fb4fd225633a1

@@ -4,7 +4,7 @@ metadata:
   name: disallow-capabilities
   annotations:
     policies.kyverno.io/title: Disallow Capabilities in CEL expressions
-    policies.kyverno.io/category: Pod Security Standards (Baseline) in CEL
+    policies.kyverno.io/category: PSS Baseline (Git Policyset) in CEL
     policies.kyverno.io/severity: medium
     policies.kyverno.io/minversion: 1.11.0
     kyverno.io/kubernetes-version: "1.26-1.27"

@@ -4,7 +4,7 @@ metadata:
   name: disallow-capabilities
   annotations:
     policies.kyverno.io/title: Disallow Capabilities
-    policies.kyverno.io/category: Pod Security Standards (Baseline)
+    policies.kyverno.io/category: PSS Baseline (Git Policyset)
     policies.kyverno.io/severity: medium
     kyverno.io/kyverno-version: 1.6.0
     policies.kyverno.io/minversion: 1.6.0

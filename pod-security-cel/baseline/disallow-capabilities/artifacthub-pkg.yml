@@ -9,14 +9,14 @@ install: |-
   ```
 keywords:
   - kyverno
-  - Pod Security Standards (Baseline)
+  - PSS Baseline (Git Policyset)
   - CEL Expressions
 readme: |
   Adding capabilities beyond those listed in the policy must be disallowed.
   
   Refer to the documentation for more details on Kyverno annotations: https://artifacthub.io/docs/topics/annotations/kyverno/
 annotations:
-  kyverno/category: "Pod Security Standards (Baseline) in CEL"
+  kyverno/category: "PSS Baseline (Git Policyset) in CEL"
   kyverno/kubernetesVersion: "1.26-1.27"
   kyverno/subject: "Pod"
 digest: 6a0ace9b1f5b3f25b34117db4936ba32c4fcbbdfe3d0dba9e61b6152dede3a53
